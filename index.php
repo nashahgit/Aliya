@@ -179,7 +179,7 @@
 						        <h4 class="card-title">Card title</h4>
 						        <!--Text-->
 						        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						        <a href="#" class="btn btn-primary">Button</a>
+						        <a href="#" class="btn btn-primary">Read More</a>
 						    </div>
 						    <!--/.Card content-->
 						</div>
@@ -198,7 +198,8 @@
 								        <h4 class="card-title">Card title</h4>
 								        <!--Text-->
 								        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-								        <a href="#" class="btn btn-primary">Button</a>
+								        <a href="#" class="link-text"><h5>Read More <i class="fa fa-chevron-right"></i> </h5></a>
+								        <!--a href="#" class="btn btn-primary">More</a-->
 								    </div>
 								</div>
 							</div>
@@ -212,7 +213,20 @@
 								        <h4 class="card-title">Card title</h4>
 								        <!--Text-->
 								        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-								        <a href="#" class="btn btn-primary">Button</a>
+								        <a href="#" class="link-text"><h5>Read More <i class="fa fa-chevron-right"></i> </h5></a>
+								        <!--a href="#" class="btn btn-primary">More</a-->
+								    </div>
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="card">
+									<div class="card-block">
+								        <!--Title-->
+								        <h4 class="card-title headline">Upcoming Events :</h4>
+								        <!--Text-->
+								        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+								        <a href="#" class="link-text"><h5>Read More <i class="fa fa-chevron-right"></i> </h5></a>
+								        <!--a href="#" class="btn btn-primary">More</a-->
 								    </div>
 								</div>
 							</div>
@@ -225,6 +239,48 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<div class="headline"><h3>MESSAGES</h3></div>
+						<div class="card">
+							<div class="row">
+								<div class="col-sm-4 col-xs-4">
+									<img src="aliya_president.png" width="100%">
+								</div>
+								<div class="card-block">
+									<div class="col-sm-8 col-xs-8">
+										<p>Messsage from the President of Aliya Trust, Dr. Habeeb Rahman.</p>
+
+									</div>
+									<a href="#" class="link-text"><h5>Read More <i class="fa fa-chevron-right"></i> </h5></a>
+									<!--a href="#" class="btn btn-primary">Read More</a-->
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="row">
+								<div class="col-sm-4 col-xs-4">
+									<img src="aliya_president.png" width="100%">
+								</div>
+								<div class="card-block">
+									<div class="col-sm-8 col-xs-8">
+										<p>Messsage from the President of Aliya Trust, Dr. Habeeb Rahman.</p>
+
+									</div>
+									<a href="#" class="link-text"><h5>Read More <i class="fa fa-chevron-right"></i> </h5></a>
+									<!--a href="#" class="btn btn-primary">Read More</a-->
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="headline"><h3>MODE OF OPERATION</h3></div>
+						<div class="card">
+							<div class="card-block">
+								<p>	Aliya International Academy is commited to implement advanced ideas in the field of Islamic education. 
+									Aliya has devised multiple methods to scientifically apply personality development techinques and to 
+									effectively implement the best precedents which Islam applied.
+								</p>
+								<a href="#" class="link-text"><h5>Read More <i class="fa fa-chevron-right"></i> </h5></a>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>

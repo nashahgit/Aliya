@@ -23,8 +23,13 @@ html, body {
     margin: 0 auto -60px;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 p {
     font-family: 'Open Sans', sans-serif;
+    text-align: justify;
 }
 
 h1, h2, h3, h4 {
@@ -103,6 +108,26 @@ h1, h2, h3, h4 {
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
     color: #F7F0F0;
     background-color: rgba(224, 46, 46, 0.75);
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #b30309;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #b30309;
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar {
+    background-color: #ffffff;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #b30309;
+}
+
+.navbar-toggle {
+     border-radius: 0px;
 }
 
 .screen-reader {
@@ -214,6 +239,16 @@ h1, h2, h3, h4 {
     color: #fff;
     background-color: #c10b0b;
     border-color: #c10b0b;
+}
+
+.link-text {
+    text-align: right;
+    text-decoration: none;
+    color: #c10b0b;
+}
+
+.link-text h5 {
+    padding-right: 15px;
 }
 
 #footer {
