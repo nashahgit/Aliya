@@ -288,44 +288,46 @@
 			<div class="container margin-bottom-20">
 				<div class="headline"><h3>PROGRAMS</h3></div>
 				<div class="row">
-					<div class="col-sm-3 col-xs-6">
-						<div class="card">
-							<img class="img-fluid" src="24X7.png" alt="Card image cap">
+					<div class="extra-padding">
+						<div class="col-sm-3 col-xs-6">
+							<div class="card">
+								<img class="img-fluid" src="24X7.png" alt="Card image cap">
+							</div>
 						</div>
-					</div>
-					<div class="col-sm-3 col-xs-6">
-						<div class="card">
-							<img class="img-fluid" src="Library.png" alt="Card image cap">
+						<div class="col-sm-3 col-xs-6">
+							<div class="card">
+								<img class="img-fluid" src="Library.png" alt="Card image cap">
+							</div>
 						</div>
-					</div>
-					<div class="col-sm-3 col-xs-6">
-						<div class="card">
-							<img class="img-fluid" src="LangLab.png" alt="Card image cap">
+						<div class="col-sm-3 col-xs-6">
+							<div class="card">
+								<img class="img-fluid" src="LangLab.png" alt="Card image cap">
+							</div>
 						</div>
-					</div>
-					<div class="col-sm-3 col-xs-6">
-						<div class="card">
-							<img class="img-fluid" src="AcademicBank.png" alt="Card image cap">
+						<div class="col-sm-3 col-xs-6">
+							<div class="card">
+								<img class="img-fluid" src="AcademicBank.png" alt="Card image cap">
+							</div>
 						</div>
-					</div>
-					<div class="col-sm-3 col-xs-6">
-						<div class="card">
-							<img class="img-fluid" src="IT.png" alt="Card image cap">
+						<div class="col-sm-3 col-xs-6">
+							<div class="card">
+								<img class="img-fluid" src="IT.png" alt="Card image cap">
+							</div>
 						</div>
-					</div>
-					<div class="col-sm-3 col-xs-6">
-						<div class="card">
-							<img class="img-fluid" src="Perfoming.png" alt="Card image cap">
+						<div class="col-sm-3 col-xs-6">
+							<div class="card">
+								<img class="img-fluid" src="Perfoming.png" alt="Card image cap">
+							</div>
 						</div>
-					</div>
-					<div class="col-sm-3 col-xs-6">
-						<div class="card">
-							<img class="img-fluid" src="LogoKuthba.png" alt="Card image cap">
+						<div class="col-sm-3 col-xs-6">
+							<div class="card">
+								<img class="img-fluid" src="LogoKuthba.png" alt="Card image cap">
+							</div>
 						</div>
-					</div>
-					<div class="col-sm-3 col-xs-6">
-						<div class="card">
-							<img class="img-fluid" src="Studio.png" alt="Card image cap">
+						<div class="col-sm-3 col-xs-6">
+							<div class="card">
+								<img class="img-fluid" src="Studio.png" alt="Card image cap">
+							</div>
 						</div>
 					</div>
 				</div>
