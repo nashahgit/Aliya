@@ -63,24 +63,33 @@
 		          </div>
 		          <div id="navbar" class="navbar-collapse collapse">
 		            <ul class="nav navbar-nav">
-		              <li class="active"><a href="#">Home</a></li>
-		              <li><a href="#">About</a></li>
-		              <li><a href="#">Academic</a></li>
-		              <li><a href="#">Alumni</a></li>
-		              <li><a href="#">Gallery</a></li>
-		              <li><a href="#">Contact</a></li>
+		              <li class="active"><a href="index.php">Home</a></li>
 		              <li class="dropdown">
-		                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+		              	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us <span class="caret"></span></a>
 		                <ul class="dropdown-menu">
-		                  <li><a href="#">Action</a></li>
-		                  <li><a href="#">Another action</a></li>
-		                  <li><a href="#">Something else here</a></li>
-		                  <li role="separator" class="divider"></li>
-		                  <li class="dropdown-header">Nav header</li>
-		                  <li><a href="#">Separated link</a></li>
-		                  <li><a href="#">One more separated link</a></li>
+		                  <li><a href="#">History</a></li>
+		                  <li><a href="#">Managing Committee</a></li>
+		                  <li><a href="#">Mode of Operations</a></li>
 		                </ul>
 		              </li>
+		              <li class="dropdown">
+		              	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Academic <span class="caret"></span></a>
+		                <ul class="dropdown-menu">
+		                  <li><a href="#">Courses</a></li>
+		                  <li><a href="#">Programs</a></li>
+		                  <li><a href="#">Admission</a></li>
+		                </ul>
+		              </li>
+		              <li><a href="#">Alumni</a></li>
+		              <li class="dropdown">
+		              	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gallery <span class="caret"></span></a>
+		                <ul class="dropdown-menu">
+		                  <li><a href="photo-gallery.html">Photo Gallery</a></li>
+		                  <li><a href="#">Video Gallery</a></li>
+		                  <li><a href="photo-archive.html">Photo Archives</a></li>
+		                </ul>
+		              </li>
+		              <li><a href="#">Contact</a></li>
 		            </ul>
 		          </div><!--/.nav-collapse -->
 		        </div><!--/.container-fluid -->
