@@ -23,6 +23,7 @@
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
 	   	<script src="script.js"></script>
 
+
 	</head>
 	<body>
 		<div id="wrap">
@@ -35,12 +36,12 @@
 			</div>
 		    <div class="container">
 		    	<div class="row">
-		    		<div class="col-sm-6 pull-left">
+		    		<div class="col-sm-6 logo-left">
 		    			<div id="header">
 		    				<img class="header-image  img-responsive" src="aliya_75.png" >
 		    			</div>
 		    		</div>
-		    		<div class="col-sm-6 pull-right" >
+		    		<div class="col-sm-6 logo-right" >
 		    			<div id="header-text">
 		    				<img class="img-responsive" src="Aliya_academy_text_logo.png">
 		    			</div>
@@ -196,22 +197,42 @@
 					</div>
 					<div class="col-sm-9" id="news">
 						<div class="headline"><h3>NEWS & EVENTS</h3></div>
+						<?php
+						// Include WordPress
+						define('WP_USE_THEMES', false);
+						require('./news-events/wp-load.php');
+						query_posts('showposts=1');
+						?>
+
+						<?php 
+
+						if (have_posts()) :
+							while (have_posts()) : the_post(); ?>
+
 						<div class="row">
 							<div class="col-sm-4">
 								<div class="card">
-									<img class="img-fluid" src="http://mdbootstrap.com/images/regular/nature/img%20(18).jpg" alt="Card image cap">
+									<!--img class="img-fluid" src="http://mdbootstrap.com/images/regular/nature/img%20(18).jpg" alt="Card image cap"-->
+								    <?php getImage('1'); ?>
 								    <!--/.Card image-->
 								    <!--Card content-->
 								    <div class="card-block">
 								        <!--Title-->
-								        <h4 class="card-title">Card title</h4>
+								        <h4 class="card-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
 								        <!--Text-->
-								        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-								        <a href="#" class="link-text"><h5>Read More <i class="fa fa-chevron-right"></i> </h5></a>
+								        <p class="card-text"><?php the_excerpt(); ?></p>
+								        <a href="<?php the_permalink(); ?>" class="link-text"><h5>Read More <i class="fa fa-chevron-right"></i> </h5></a>
 								        <!--a href="#" class="btn btn-primary">More</a-->
 								    </div>
 								</div>
 							</div>
+							<?php endwhile;
+
+						else :
+							echo '<p> No posts </p>';
+						endif;
+
+						?>	
 							<div class="col-sm-4">
 								<div class="card">
 									<img class="img-fluid" src="http://mdbootstrap.com/images/reg/reg%20(62).jpg" alt="Card image cap">
@@ -283,10 +304,11 @@
 						<div class="headline"><h3>MODE OF OPERATION</h3></div>
 						<div class="card">
 							<div class="card-block">
-								<p>	Aliya International Academy is commited to implement advanced ideas in the field of Islamic education. 
+								<!--p>	Aliya International Academy is commited to implement advanced ideas in the field of Islamic education. 
 									Aliya has devised multiple methods to scientifically apply personality development techinques and to 
 									effectively implement the best precedents which Islam applied.
-								</p>
+								</p-->
+								<?php dynamic_sidebar('footer1'); ?>
 								<a href="#" class="link-text"><h5>Read More <i class="fa fa-chevron-right"></i> </h5></a>
 							</div>
 						</div>
