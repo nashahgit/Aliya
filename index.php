@@ -213,7 +213,8 @@
 							<div class="col-sm-4">
 								<div class="card">
 									<!--img class="img-fluid" src="http://mdbootstrap.com/images/regular/nature/img%20(18).jpg" alt="Card image cap"-->
-								    <?php getImage('1'); ?>
+								    <!--?php getImage('1'); ?-->
+								    <?php the_post_thumbnail('banner-image'); ?>
 								    <!--/.Card image-->
 								    <!--Card content-->
 								    <div class="card-block">

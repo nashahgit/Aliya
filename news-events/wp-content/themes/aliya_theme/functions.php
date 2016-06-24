@@ -27,14 +27,6 @@ function learningWordPress_resources() {
 
 add_action('wp_enqueue_scripts', 'learningWordPress_resources');
 
-
-// Navigation Menus
-
-register_nav_menus(array(
-	'primary' => __('Primary Menu'),
-	'footer'  => __('Footer Menu')
-	));
-
 function ourWidgetsInit() {
 
 	register_sidebar( array(
@@ -54,3 +46,29 @@ function ourWidgetsInit() {
 }
 
 add_action('widgets_init', 'ourWidgetsInit');
+
+
+function custom_excerpt_length() {
+	return 25;
+}
+
+add_filter('excerpt_length', 'custom_excerpt_length');
+
+
+
+function aliyaTheme_setup() {
+
+	// Navigation Menus
+
+	register_nav_menus(array(
+		'primary' => __('Primary Menu'),
+		'footer'  => __('Footer Menu')
+	));
+
+	// Add featured image support
+	add_theme_support('post-thumbnails');
+	add_image_size('small-thumbnail', 180, 120, true);
+	add_image_size('banner-image', 920, 210, true);
+}
+
+add_action('after_setup_theme', 'aliyaTheme_setup');

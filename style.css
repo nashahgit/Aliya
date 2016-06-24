@@ -246,9 +246,15 @@ h1, h2, h3, h4 {
     height: auto;
 }
 
-.btn {
+.btn, #searchsubmit {
     box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
     border-radius: 0px;
+}
+
+.btn-primary, #searchsubmit {
+    color: #fff;
+    background-color: #c10b0b;
+    border-color: #c10b0b;
 }
 
 .card-block {
@@ -261,12 +267,6 @@ h1, h2, h3, h4 {
 
 #news {
     background-color: #e5e5e5;
-}
-
-.btn-primary {
-    color: #fff;
-    background-color: #c10b0b;
-    border-color: #c10b0b;
 }
 
 .link-text {

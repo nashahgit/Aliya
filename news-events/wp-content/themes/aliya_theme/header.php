@@ -26,7 +26,7 @@
 
 	<body <?php body_class(); ?>>
 
-	<div id="wrap">
+	<div id="wrap" style="margin-top:-20px;">
       <!-- Begin page content -->
         <div class="container-fluid">
 	        <div class="row">
