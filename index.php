@@ -174,6 +174,12 @@
 				</button>
 			</div>
 
+			<?php
+				// Include WordPress
+				define('WP_USE_THEMES', false);
+				require('./news-events/wp-load.php');
+				query_posts('showposts=2');
+			?>
 			<div class="container margin-bottom-20">
 				<div class="row">
 					<div class="col-sm-3">
@@ -186,9 +192,9 @@
 						    <!--Card content-->
 						    <div class="card-block">
 						        <!--Title-->
-						        <h4 class="card-title">Card title</h4>
+						        <h4 class="card-title">History of Aliya</h4>
 						        <!--Text-->
-						        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						        <!--p class="card-text">Read the History of Aliya.</p-->
 						        <a href="#" class="btn btn-primary">Read More</a>
 						    </div>
 						    <!--/.Card content-->
@@ -197,19 +203,11 @@
 					</div>
 					<div class="col-sm-9" id="news">
 						<div class="headline"><h3>NEWS & EVENTS</h3></div>
-						<?php
-						// Include WordPress
-						define('WP_USE_THEMES', false);
-						require('./news-events/wp-load.php');
-						query_posts('showposts=1');
-						?>
-
-						<?php 
-
-						if (have_posts()) :
-							while (have_posts()) : the_post(); ?>
 
 						<div class="row">
+						<?php 
+						if (have_posts()) :
+							while (have_posts()) : the_post(); ?>
 							<div class="col-sm-4">
 								<div class="card">
 									<!--img class="img-fluid" src="http://mdbootstrap.com/images/regular/nature/img%20(18).jpg" alt="Card image cap"-->
@@ -227,36 +225,31 @@
 								    </div>
 								</div>
 							</div>
-							<?php endwhile;
 
-						else :
-							echo '<p> No posts </p>';
-						endif;
-
-						?>	
-							<div class="col-sm-4">
+							<!--div class="col-sm-4">
 								<div class="card">
 									<img class="img-fluid" src="http://mdbootstrap.com/images/reg/reg%20(62).jpg" alt="Card image cap">
-								    <!--/.Card image-->
-								    <!--Card content-->
 								    <div class="card-block">
-								        <!--Title-->
 								        <h4 class="card-title">Card title</h4>
-								        <!--Text-->
 								        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 								        <a href="#" class="link-text"><h5>Read More <i class="fa fa-chevron-right"></i> </h5></a>
-								        <!--a href="#" class="btn btn-primary">More</a-->
 								    </div>
 								</div>
-							</div>
+							</div-->
+							<?php endwhile;
+								else :
+									echo '<p> No posts </p>';
+								endif;
+							?>	
 							<div class="col-sm-4">
 								<div class="card">
 									<div class="card-block">
+										<?php dynamic_sidebar('front'); ?>
+
 								        <!--Title-->
-								        <h4 class="card-title headline">Upcoming Events :</h4>
-								        <!--Text-->
+								        <!--h4 class="card-title headline">Upcoming Events :</h4>
 								        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-								        <a href="#" class="link-text"><h5>Read More <i class="fa fa-chevron-right"></i> </h5></a>
+								        <a href="#" class="link-text"><h5>Read More <i class="fa fa-chevron-right"></i> </h5></a-->
 								        <!--a href="#" class="btn btn-primary">More</a-->
 								    </div>
 								</div>

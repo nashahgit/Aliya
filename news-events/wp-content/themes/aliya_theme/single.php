@@ -36,6 +36,7 @@ get_header(); ?>
 
 								</div>
 								<!--?php the_category() ?--> 
+								
 								<?php the_post_thumbnail('banner-image'); ?>
 
 								<p><?php the_content(); ?></p>

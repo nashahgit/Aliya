@@ -43,6 +43,15 @@ function ourWidgetsInit() {
 		 'id' => 'footer1'
 		));
 
+	register_sidebar( array(
+		 'name' => 'Front Page',
+		 'id' => 'front',
+		 'before_widget' => '<div class="front-events">',
+		 'after_widget' => '</div>',
+		 'before_title' => '<h4>',
+		 'after_title'  => '</h4>'
+		));
+
 }
 
 add_action('widgets_init', 'ourWidgetsInit');
