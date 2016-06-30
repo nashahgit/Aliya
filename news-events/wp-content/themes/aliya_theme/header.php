@@ -28,72 +28,75 @@
 
 	<div id="wrap" style="margin-top:-20px;">
       <!-- Begin page content -->
-        <div class="container-fluid">
+        <div class="container margin-bottom-10">
+	        <!-- Static navbar -->
+	        <nav class="navbar navbar-default ">
+	    	    <div class="container">
+	              	<div class="navbar-header">
+		                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+		                  <span class="sr-only">Toggle navigation</span>
+		                  <span class="icon-bar"></span>
+		                  <span class="icon-bar"></span>
+		                  <span class="icon-bar"></span>
+		                </button>
+	                <!--a class="navbar-brand" href="#">Project name</a-->
+	              	</div>
+	              	<div id="navbar" class="navbar-collapse collapse">
+	                	<ul class="nav navbar-nav">
+	                  		<li><a href="index.php">Home</a></li>
+	                  		<li class="dropdown">
+		                    	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us <span class="caret"></span></a>
+		                    	<ul class="dropdown-menu">
+		                      	<li><a href="#">History</a></li>
+		                      	<li><a href="#">Managing Committee</a></li>
+		                      	<li><a href="#">Mode of Operations</a></li>
+	                    		</ul>
+	                  		</li>
+			                <li class="dropdown">
+			                	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Academic <span class="caret"></span></a>
+			                    <ul class="dropdown-menu">
+			                      <li><a href="#">Courses</a></li>
+			                      <li><a href="#">Programs</a></li>
+			                      <li><a href="#">Admission</a></li>
+			                    </ul>
+			                </li>
+	                  		<li><a href="#">Alumni</a></li>
+			                  <li class="dropdown active">
+			                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gallery <span class="caret"></span></a>
+			                    <ul class="dropdown-menu">
+			                      <li><a href="photo-gallery.html">Photo Gallery</a></li>
+			                      <li><a href="#">Video Gallery</a></li>
+			                      <li><a href="photo-archive.html">Photo Archives</a></li>
+			                    </ul>
+			                  </li>
+	                  		<li><a href="#">Contact</a></li>
+	                	</ul>
+	              	</div><!--/.nav-collapse -->
+	            </div><!--/.container-fluid -->
+	        </nav>
+	    </div>
+	    <div class="container">
+	        <div class="row">
+	            <div class="col-sm-6 logo-left">
+	                <div id="header">
+	                	<!--img class="header-image  img-responsive" src="//localhost/Aliya/aliya_75.png" -->
+	                	<img class="header-image  img-responsive" src="//localhost/Aliya/aliya_75.png ">
+	                </div>
+	            </div>
+	            <div class="col-sm-6 logo-right" >
+	              	<div id="header-text-wp">
+	                	<img class="img-responsive" src="<?php if (is_event()) { ?> //localhost/Aliya/events.png <?php } else { ?> //localhost/Aliya/news.png <?php }  ?>">
+	              	</div>
+	            </div>
+	    	</div>
+	    </div>
+
+	    <!--div class="container-fluid">
 	        <div class="row">
 	            <div class="col-sm-12 header-line">
 	            </div>
-	          </div>
 	        </div>
-	        <div class="container">
-	          <div class="row">
-	            <div class="col-sm-6 logo-left">
-	              <div id="header">
-	                <img class="header-image  img-responsive" src="//localhost/Aliya/aliya_75.png" >
-	              </div>
-	            </div>
-	            <div class="col-sm-6 logo-right" >
-	              <div id="header-text">
-	                <img class="img-responsive" src="//localhost/Aliya/Aliya_academy_text_logo.png">
-	              </div>
-	            </div>
-	          </div>
-	        </div>
-	        <div class="container margin-bottom-30">
-	          <!-- Static navbar -->
-	          <nav class="navbar navbar-default">
-	            <div class="container">
-	              <div class="navbar-header">
-	                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-	                  <span class="sr-only">Toggle navigation</span>
-	                  <span class="icon-bar"></span>
-	                  <span class="icon-bar"></span>
-	                  <span class="icon-bar"></span>
-	                </button>
-	                <!--a class="navbar-brand" href="#">Project name</a-->
-	              </div>
-	              <div id="navbar" class="navbar-collapse collapse">
-	                <ul class="nav navbar-nav">
-	                  <li><a href="index.php">Home</a></li>
-	                  <li class="dropdown">
-	                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Us <span class="caret"></span></a>
-	                    <ul class="dropdown-menu">
-	                      <li><a href="#">History</a></li>
-	                      <li><a href="#">Managing Committee</a></li>
-	                      <li><a href="#">Mode of Operations</a></li>
-	                    </ul>
-	                  </li>
-	                  <li class="dropdown">
-	                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Academic <span class="caret"></span></a>
-	                    <ul class="dropdown-menu">
-	                      <li><a href="#">Courses</a></li>
-	                      <li><a href="#">Programs</a></li>
-	                      <li><a href="#">Admission</a></li>
-	                    </ul>
-	                  </li>
-	                  <li><a href="#">Alumni</a></li>
-	                  <li class="dropdown active">
-	                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gallery <span class="caret"></span></a>
-	                    <ul class="dropdown-menu">
-	                      <li><a href="photo-gallery.html">Photo Gallery</a></li>
-	                      <li><a href="#">Video Gallery</a></li>
-	                      <li><a href="photo-archive.html">Photo Archives</a></li>
-	                    </ul>
-	                  </li>
-	                  <li><a href="#">Contact</a></li>
-	                </ul>
-	              </div><!--/.nav-collapse -->
-	            </div><!--/.container-fluid -->
-	          </nav>
-	        </div>
+	    </div-->
+
 
 

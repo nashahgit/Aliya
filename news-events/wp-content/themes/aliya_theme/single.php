@@ -4,8 +4,13 @@ get_header(); ?>
 
 	<div class="container margin-bottom-30">
 		<div class="row">
+			<div class="col-sm-12">
+				<div class="headline"></div>
+			</div>
+		</div>
+		<div class="row">
             <div class="col-sm-9 ">
-                <div class="headline"><h2>NEWS</h2></div>
+                <!--div class="headline"><h2>NEWS</h2></div-->
                     <div class=" card extra-padding-all-sides">
 
 						<?php if (have_posts()) :
