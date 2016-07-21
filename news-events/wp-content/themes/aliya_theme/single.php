@@ -50,6 +50,7 @@ get_header(); ?>
 
 							<?php comments_template(); ?> 
 
+
 							<?php endwhile;
 							
 						else :
