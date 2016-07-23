@@ -402,6 +402,14 @@ li.cat-item > a{
     padding-bottom: 5px;
 }
 
+.user-comments {
+    list-style: none;
+    padding-left: 0;
+}
+
+.user-comments li {
+    border-bottom: 1px solid #d5d0c0;
+}
 
 
 @media (max-width:767px) {
