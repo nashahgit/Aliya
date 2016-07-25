@@ -8,6 +8,7 @@
 <?php endif; ?>
 
 <div class="container-fluid">
+	<h3>Comments</h3>
 	<div class="row">
 		<div class="col-sm-12">
 			<?php if($comments) : ?>
@@ -48,7 +49,7 @@
 							<label for="url"><small>Website</small></label></p>
 						<?php endif; ?>
 						<p><textarea name="comment" id="comment" cols="100%" rows="10" tabindex="4" style="width:100%"></textarea></p>
-						<p><input name="submit" type="submit" id="submit" tabindex="5" value="Submit Comment" />
+						<p><input class="btn btn-primary" name="submit" type="submit" id="submit" tabindex="5" value="Submit" />
 						<input type="hidden" name="comment_post_ID" value="<?php echo $id; ?>" /></p>
 						<?php do_action('comment_form', $post->ID); ?>
 					</form>

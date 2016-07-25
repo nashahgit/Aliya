@@ -409,8 +409,12 @@ li.cat-item > a{
 
 .user-comments li {
     border-bottom: 1px solid #d5d0c0;
+    padding: 10px 0 10px 0;
 }
 
+.user-comments li:first-of-type {
+    border-top: 1px solid #d5d0c0;
+}
 
 @media (max-width:767px) {
     #header img {
