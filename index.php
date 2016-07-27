@@ -2,7 +2,6 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8"> 
-		
 	   	<title> HOME | Aliya International Academy</title>
 	   	<meta name="description" content="Home Page of Aliya International Academy">
 		<meta name="keywords" content="HTML,CSS,JavaScript">
@@ -18,12 +17,11 @@
 	   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	   	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	   	<script src="responsive-tabs.js"></script>
-
+	   	<link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
+	   	<link rel="stylesheet" href="assets/mobirise/css/style.css">
 	   	<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
 	   	<script src="script.js"></script>
-
-
 	</head>
 	<body>
 		<div id="wrap">
@@ -43,7 +41,7 @@
 		    		</div>
 		    		<div class="col-sm-6 logo-right" >
 		    			<div id="header-text">
-		    				<img class="img-responsive" src="Aliya_academy_text_logo.png">
+		    				<img class="img-responsive" src="Aliya-logo-3.png">
 		    			</div>
 		    		</div>
 		    	</div>
@@ -85,9 +83,9 @@
 		              <li class="dropdown">
 		              	<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gallery <span class="caret"></span></a>
 		                <ul class="dropdown-menu">
-		                  <li><a href="photo-gallery.html">Photo Gallery</a></li>
+		                  <li><a href="photo-gallery.php">Photo Gallery</a></li>
 		                  <li><a href="#">Video Gallery</a></li>
-		                  <li><a href="photo-archive.html">Photo Archives</a></li>
+		                  <li><a href="photo-archive.php">Photo Archives</a></li>
 		                </ul>
 		              </li>
 		              <li><a href="#">Contact</a></li>
@@ -309,6 +307,8 @@
 					</div>
 				</div>
 			</div>
+
+			
 
 			<div class="container margin-bottom-20">
 				<div class="headline"><h3>PROGRAMS</h3></div>

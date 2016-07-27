@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
   <!-- Site made with Mobirise Website Builder v2.11.1, https://mobirise.com -->
@@ -18,9 +18,7 @@
   <link rel="stylesheet" href="assets/mobirise-slider/style.css">
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
-  
-  
-  
+  <script src="script.js"></script>
 </head>
 <body>
       <div id="wrap">
@@ -82,9 +80,9 @@
                   <li class="dropdown active">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Gallery <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                      <li><a href="photo-gallery.html">Photo Gallery</a></li>
+                      <li><a href="photo-gallery.php">Photo Gallery</a></li>
                       <li><a href="#">Video Gallery</a></li>
-                      <li><a href="photo-archive.html">Photo Archives</a></li>
+                      <li><a href="photo-archive.php">Photo Archives</a></li>
                     </ul>
                   </li>
                   <li><a href="#">Contact</a></li>
