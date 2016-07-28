@@ -101,8 +101,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-9 ">
-                  <div class="headline"><h3>PHOTO ARCHIVES </h3></div>
+                  
                       <div class=" card extra-padding-all-sides">
+                        <div class="headline"><h3>PHOTO ARCHIVES </h3></div>
                         <section class="mbr-gallery mbr-section mbr-section--no-padding" id="gallery1-0" style="background-color: rgb(255, 255, 255);">
                           <!-- Gallery -->
                           <div class=" mbr-gallery-layout-default">
