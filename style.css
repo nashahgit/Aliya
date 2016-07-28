@@ -343,18 +343,18 @@ h1, h2, h3, h4 {
 
 .widget-sidebar .tribe-event-title {
     font-size: medium;
-    font-weight: 600;
+    font-weight: 500;
+    font-style: italic;
 }
 
 .widget-sidebar .tribe-list-widget {
-    padding-left: 15px;
+    padding-left: 5px;
 }
 
 /* Changing a css property tribe-events-full.min.css?ver=4.2.1 */
 .clearfix:before, li.tribe-clearfix:before {
     display: none;
 }
-
 
 .sidebar-col {
     margin-top: 0px;
@@ -370,7 +370,7 @@ h1, h2, h3, h4 {
 }
 
 .sidebar-col ul {
-    list-style: none;
+    list-style: inherit;
     padding-left: 5px;
     font-style: italic;
 }
@@ -435,6 +435,12 @@ li.cat-item > a{
 .user-comments cite {
     color: #3080d6;
 }
+
+span.rss-date {
+    display: block;
+}
+
+
 
 @media (max-width:767px) {
     #header img {
