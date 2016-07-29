@@ -17,8 +17,6 @@
 	   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	   	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	   	<script src="responsive-tabs.js"></script>
-	   	<link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
-	   	<link rel="stylesheet" href="assets/mobirise/css/style.css">
 	   	<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
 	   	<script src="script.js"></script>
@@ -257,6 +255,7 @@
 				</div>
 			</div>
 
+			
 			<div class="container margin-bottom-20">
 				<div class="row">
 					<div class="col-sm-4">
@@ -305,10 +304,14 @@
 							</div>
 						</div>
 					</div>
+					<div class="col-sm-4">
+						<div class="card">
+						<a class="twitter-timeline" data-width="500" data-height="300" href="https://twitter.com/AJENews">Tweets by AJENews</a> 
+						<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+						</div>
+					</div>
 				</div>
 			</div>
-
-			
 
 			<div class="container margin-bottom-20">
 				<div class="headline"><h3>PROGRAMS</h3></div>
